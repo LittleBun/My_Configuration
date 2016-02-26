@@ -46,7 +46,7 @@ version4 :
 	touch universe.cc
 
 clean:
-	rm -f *.o
+	rm -f *.o *.cc~ *.orig
 
 real_clean: clean
 	rm -f 1dlife
